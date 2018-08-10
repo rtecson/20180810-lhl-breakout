@@ -13,6 +13,7 @@
 		2AC41C6F211E444F00619FC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC41C6E211E444F00619FC9 /* Assets.xcassets */; };
 		2AC41C72211E444F00619FC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC41C70211E444F00619FC9 /* LaunchScreen.storyboard */; };
 		2AC41C75211E444F00619FC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC41C74211E444F00619FC9 /* main.m */; };
+		2AC41C7D211E449900619FC9 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC41C7C211E449900619FC9 /* MyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		2AC41C71211E444F00619FC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AC41C73211E444F00619FC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AC41C74211E444F00619FC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2AC41C7B211E449900619FC9 /* MyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		2AC41C7C211E449900619FC9 /* MyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				2AC41C66211E444E00619FC9 /* AppDelegate.m */,
 				2AC41C68211E444E00619FC9 /* ViewController.h */,
 				2AC41C69211E444E00619FC9 /* ViewController.m */,
+				2AC41C7B211E449900619FC9 /* MyView.h */,
+				2AC41C7C211E449900619FC9 /* MyView.m */,
 				2AC41C6B211E444E00619FC9 /* Main.storyboard */,
 				2AC41C6E211E444F00619FC9 /* Assets.xcassets */,
 				2AC41C70211E444F00619FC9 /* LaunchScreen.storyboard */,
@@ -141,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AC41C7D211E449900619FC9 /* MyView.m in Sources */,
 				2AC41C6A211E444E00619FC9 /* ViewController.m in Sources */,
 				2AC41C75211E444F00619FC9 /* main.m in Sources */,
 				2AC41C67211E444E00619FC9 /* AppDelegate.m in Sources */,
